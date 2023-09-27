@@ -22,7 +22,7 @@ public class Main {
     public static void manageItems(){
         Scanner scan = new Scanner(System.in);
         while(true){
-            System.out.println("\n\t******************************JAVA GROCERS******************************\n");
+            System.out.println("\n\t******************************JAVA GROCERIES******************************\n");
             System.out.println(store);
             System.out.println("Options: \n\ta) Add to cart\n\tb) Remove from cart \n\tc) Checkout");
             String option = scan.nextLine();
